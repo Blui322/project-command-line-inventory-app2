@@ -1,0 +1,30 @@
+{
+  "name": "project-command-line-inventory-app2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "node index.js index",
+    "create": "node index.js create",
+    "show": "node index.js show",
+    "update": "node index.js update",
+    "destroy": "node index.js destroy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blui322/project-command-line-inventory-app2.git"
+  },
+  "keywords": [],
+  "author": "Luis Tejada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blui322/project-command-line-inventory-app2/issues"
+  },
+  "homepage": "https://github.com/Blui322/project-command-line-inventory-app2#readme",
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "nanoid": "^3.3.6",
+    "random-english-words": "^0.1.0",
+    "uuid": "^9.0.1"
+  }
+}
